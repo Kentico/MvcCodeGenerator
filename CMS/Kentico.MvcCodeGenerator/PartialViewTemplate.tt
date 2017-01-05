@@ -1,0 +1,26 @@
+﻿<#@ template language="C#" debug="true" #>
+<#@ output extension="cs" encoding="UTF-8" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+@model <#= _infrastructure.RepositoryModelNamespaceIdentifier #>.<#= _infrastructure.RepositoryModelClassIdentifier #>
+@using (Html.BeginForm("<#= _infrastructure.ActionResultMethodIdentifier #>", "<#= _infrastructure.ControllerClassIdentifier #>"))
+{
+    @Html.AntiForgeryToken()
+    <div class="FormPanel">
+        @Html.ValidationSummary(true, "", new { @class = "ErrorLabel" })
+<#
+foreach (var field in _infrastructure.Fields)
+{
+    if (_infrastructure.IsSupported(field))
+    {
+#>
+        <#= RenderHelperMethod(field) #>
+<#
+    }
+}
+#>
+        <input type="submit" value="@ResHelper.GetString("General.Submit")" class="btn btn-primary" />
+    </div>
+}

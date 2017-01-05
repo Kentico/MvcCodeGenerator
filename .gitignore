@@ -1,0 +1,49 @@
+# Ignore all
+*
+# Add .gitignore
+!/.gitignore
+
+# Add README.md and LICENSE
+!/README.md
+!/LICENSE
+ 
+# Add code files
+!/CMS/
+ /CMS/*
+!/CMS/Kentico.MvcCodeGenerator.csproj
+!/CMS/packages.Kentico.MvcCodeGenerator.config
+!/CMS/Properties/
+ /CMS/Properties/*
+!/CMS/Properties/Kentico.MvcCodeGeneratorAssemblyInfo.cs
+!/CMS/CMSModules/
+ /CMS/CMSModules/*
+!/CMS/CMSModules/Kentico.MvcCodeGenerator/
+ /CMS/CMSModules/Kentico.MvcCodeGenerator/*
+!/CMS/CMSModules/Kentico.MvcCodeGenerator/FileSystemSelector.ascx*
+!/CMS/CMSModules/Kentico.MvcCodeGenerator/OnlineFormGenerator.aspx*
+!/CMS/CMSResources/
+ /CMS/CMSResources/*
+!/CMS/CMSResources/Kentico.MvcCodeGenerator/
+!/CMS/CMSResources/Kentico.MvcCodeGenerator/*
+!/CMS/Kentico.MvcCodeGenerator/
+ /CMS/Kentico.MvcCodeGenerator/*
+!/CMS/Kentico.MvcCodeGenerator/Infrastructure.cs
+!/CMS/Kentico.MvcCodeGenerator/PartialViewTemplate.*
+!/CMS/Kentico.MvcCodeGenerator/PartialViewTemplatePartial.cs
+!/CMS/Kentico.MvcCodeGenerator/RepositoryModelTemplate.*
+!/CMS/Kentico.MvcCodeGenerator/RepositoryModelTemplatePartial.cs
+!/CMS/Kentico.MvcCodeGenerator/UniqueMemberNameGenerator.cs
+ 
+# Add CI data (XML-serialized DB data)
+!/CMS/App_Data/
+ /CMS/App_Data/*
+!/CMS/App_Data/CIRepository/
+ /CMS/App_Data/CIRepository/*
+!/CMS/App_Data/CIRepository/@global/
+ /CMS/App_Data/CIRepository/@global/*
+!/CMS/App_Data/CIRepository/@global/cms.resource/
+ /CMS/App_Data/CIRepository/@global/cms.resource/*
+!/CMS/App_Data/CIRepository/@global/cms.resource/kentico.mvccodegenerator.xml
+!/CMS/App_Data/CIRepository/@global/cms.uielement/
+ /CMS/App_Data/CIRepository/@global/cms.uielement/*
+!/CMS/App_Data/CIRepository/@global/cms.uielement/kentico.mvccodegenerator*
