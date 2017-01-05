@@ -8,7 +8,7 @@ The repository accompanies the DevNet article [Render Online Forms with ASP.NET 
 
 ## Installation &amp; Contributing
   1. Read the [contribution guidelines](https://github.com/Kentico/DisqusThread/blob/master/CONTRIBUTING.md)
-  2. Enable the [continuous integration](https://docs.kentico.com/display/K9/Setting+up+continuous+integration) module
+  2. Enable the [continuous integration](https://docs.kentico.com/k10/developing-websites/preparing-your-environment-for-team-development/setting-up-continuous-integration) module
   3. Serialize all objects to disk
   4. Open a command prompt
   5. Navigate to the root of your project (where the .sln file is)
@@ -42,4 +42,4 @@ The repository accompanies the DevNet article [Render Online Forms with ASP.NET 
 
 ## [Questions &amp; Support](https://github.com/Kentico/Home/blob/master/README.md)
 
-## [License](https://github.com/Kentico/MvcCodeGenerator/blob/master/LICENSE.txt)
+## [License](https://github.com/Kentico/MvcCodeGenerator/blob/master/LICENSE)
