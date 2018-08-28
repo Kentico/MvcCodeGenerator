@@ -43,3 +43,5 @@ The repository accompanies the DevNet article [Render Online Forms with ASP.NET 
 ## [Questions &amp; Support](https://github.com/Kentico/Home/blob/master/README.md)
 
 ## [License](https://github.com/Kentico/MvcCodeGenerator/blob/master/LICENSE)
+
+![Analytics](https://kentico-ga-beacon.azurewebsites.net/api/UA-69014260-4/Kentico/MvcCodeGenerator?pixel)
